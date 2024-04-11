@@ -6,7 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions Files", "Solution
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WC.Library.Shared", "WC.Library.Shared\WC.Library.Shared.csproj", "{62013BA1-08B7-40AE-8BBD-7BD4D080251E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WC.Library.Shared", "src\WC.Library.Shared\WC.Library.Shared.csproj", "{62013BA1-08B7-40AE-8BBD-7BD4D080251E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
