@@ -12,6 +12,6 @@ public class NotFoundException : Exception
     {
     }
 
-    public string Title = "User Not Found";
+    public string Title = "Not Found";
     public int StatusCode = (int)HttpStatusCode.NotFound;
 }
