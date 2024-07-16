@@ -1,6 +1,6 @@
 ﻿namespace WC.Library.Shared.Constants;
 
-public class CommonConstants
+public static class CommonConstants
 {
     public const char GenericAtSymbol = '@';
 }
