@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace WC.Library.Shared.Exceptions;
+﻿namespace WC.Library.Shared.Exceptions;
 
 public class NotFoundException : Exception
 {
@@ -11,7 +9,4 @@ public class NotFoundException : Exception
     public NotFoundException(string message) : base(message)
     {
     }
-
-    public string Title = "Not Found";
-    public int StatusCode = (int)HttpStatusCode.NotFound;
 }
