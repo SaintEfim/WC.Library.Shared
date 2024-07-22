@@ -1,12 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>net8.0</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <PackageId>WC.Library.Shared</PackageId>
-        <Version>1.0.5</Version>
-        <Authors>SaintEfim</Authors>
-    </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>WC.Library.Shared</PackageId>
+    <Version>1.0.8</Version>
+    <Authors>SaintEfim</Authors>
+  </PropertyGroup>
 
 </Project>
