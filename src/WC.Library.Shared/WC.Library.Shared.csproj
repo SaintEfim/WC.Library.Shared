@@ -4,9 +4,6 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <PackageId>WC.Library.Shared</PackageId>
-    <Version>1.0.8</Version>
-    <Authors>SaintEfim</Authors>
   </PropertyGroup>
 
 </Project>
