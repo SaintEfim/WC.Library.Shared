@@ -22,7 +22,15 @@ jobs:
       - name: Check for changes in project files
         id: check-changes
         run: |
-          CHANGED_FILES=$(git diff --name-only HEAD)
+          # Проверяем, есть ли предыдущий коммит
+          if git rev-parse HEAD^ >/dev/null 2>&1; then
+            CHANGED_FILES=$(git diff --name-only HEAD^ HEAD)
+          else
+            echo "No previous commit found. Assuming all files are changed."
+            CHANGED_FILES=$(git ls-files)
+          fi
+
+          echo "All changed files: $CHANGED_FILES"
 
           # Фильтруем несущественные файлы
           ESSENTIAL_CHANGES=$(echo "$CHANGED_FILES" | grep -Ev "\.editorconfig$|\.gitignore$|\.yml$|\.sln$|^\.github/")
